@@ -13,6 +13,33 @@
   height: 117px;
 }
 
+.logo {
+  width: 146px;
+  height: 32px;
+  padding: 44px 44px;
+  position: relative;
+  font: bold 24px/32px 'pt serif', arial;
+}
+
+.logo__circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_blue { background: #0056ec; }
+
+.logo__circle_color_light-blue {
+  left: 8px;
+  top: 56%;
+  background: #c8dbfb;
+}
+
 .menu__item {
   padding: 0 12px;
   text-decoration: none;
