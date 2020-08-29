@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 .wrapper {
   margin: auto;
   width: 70%;
@@ -18,7 +19,7 @@
   height: 32px;
   padding: 44px 44px;
   position: relative;
-  font: bold 24px/32px 'pt serif', arial;
+  font: bold 24px/32px 'pt serif', Arial;
 }
 
 .logo__circle {
