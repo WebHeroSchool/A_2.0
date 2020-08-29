@@ -19,7 +19,7 @@
   height: 32px;
   padding: 44px 44px;
   position: relative;
-  font: bold 24px/32px 'pt serif', Arial;
+  font: bold 24px/32px 'pt serif', Arial, Helvetica, Sans-serif;
 }
 
 .logo__circle {
@@ -30,7 +30,7 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .logo__circle_color_blue { background: #0056ec; }
