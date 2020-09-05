@@ -17,7 +17,7 @@
 .logo {
   width: 146px;
   height: 32px;
-  padding: 44px 44px;
+  padding-left: 44px;
   position: relative;
   font: bold 24px/32px 'pt serif', Arial, Helvetica, Sans-serif;
 }
@@ -44,7 +44,7 @@
 .menu__item {
   position: relative;
   font: 500 14px/16px 'roboto', Arial, Helvetica, sans-serif;
-  margin: 0 12px;
+  margin-right: 24px;
   text-decoration: none;
   color: black;
   transition: opacity 1s;
@@ -86,38 +86,70 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 11vh;
+  margin-top: 85px;
 }
 
 .main-inf__description {
   width: 50%;
+  margin-right: 50px;
 }
 
 .main-inf__title {
+  margin: 0 0 40px 0;
   width: 100%;
-  font-family: 'PT Serif', serif;
+  font: bold 50px/66px 'PT Serif', Arial, Helvetica, Sans-serif;
+}
+
+.main-inf__title_highlight {
+  background: #ecf3ff;
 }
 
 .main-inf__text {
+  font: 500 18px/21px 'Roboto', Arial, Helvetica, Sans-serif;
   width: 85%;
-  margin: 40px 0;
+  margin: 0 0 41px 0;
 }
 
 .main-inf__button {
   width: 209px;
   height: 44px;
-  padding: 14px 25px 13px 16px;
+  padding: 14px 20px 14px 20px;
+  background: #0056ec;
+  border: #0056ec;
+  color: white;
+  border-radius: 4px;
+  font: 500 14px/16px 'Roboto', Arial, Helvetica, Sans-serif;
+  transition: opacity 1s;
+}
+
+.main-inf__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.main-inf__img {
+  width: 514px;
 }
 
 .footer {
-  margin-top: 8vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+
+.footer__dots {
+  position: absolute;
+  bottom: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 32px;
+  height: 8px;
 }
 
 .footer__dots-icon {
-  border: 1px dotted red;
-  width: 32px;
+  width: 8px;
   height: 8px;
+  border-radius: 50px;
+  background: #c8dbfb;
 }
