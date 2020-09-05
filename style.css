@@ -17,7 +17,7 @@
 .logo {
   width: 146px;
   height: 32px;
-  padding: 44px 44px;
+  padding-left: 44px;
   position: relative;
   font: bold 24px/32px 'pt serif', Arial, Helvetica, Sans-serif;
 }
@@ -44,7 +44,7 @@
 .menu__item {
   position: relative;
   font: 500 14px/16px 'roboto', Arial, Helvetica, sans-serif;
-  margin: 0 12px;
+  margin-right: 24px;
   text-decoration: none;
   color: black;
   transition: opacity 1s;
@@ -122,7 +122,10 @@
   transition: opacity 1s;
 }
 
-.main-inf__button:hover { opacity: 0.5; }
+.main-inf__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 
 .main-inf__img {
   width: 514px;
